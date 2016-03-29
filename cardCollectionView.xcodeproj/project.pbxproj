@@ -14,6 +14,12 @@
 		CD9FDB631CAA203F00B9BA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9FDB611CAA203F00B9BA4A /* LaunchScreen.storyboard */; };
 		CD9FDB6E1CAA203F00B9BA4A /* cardCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FDB6D1CAA203F00B9BA4A /* cardCollectionViewTests.swift */; };
 		CD9FDB791CAA203F00B9BA4A /* cardCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FDB781CAA203F00B9BA4A /* cardCollectionViewUITests.swift */; };
+		CD9FDB891CAA20EE00B9BA4A /* horizontalFolowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FDB881CAA20EE00B9BA4A /* horizontalFolowLayout.swift */; };
+		CD9FDB8B1CAA210F00B9BA4A /* VerticalFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FDB8A1CAA210F00B9BA4A /* VerticalFlowLayout.swift */; };
+		CD9FDB8D1CAA212B00B9BA4A /* horizontalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FDB8C1CAA212B00B9BA4A /* horizontalVC.swift */; };
+		CD9FDB8F1CAA214D00B9BA4A /* verticalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FDB8E1CAA214D00B9BA4A /* verticalVC.swift */; };
+		CD9FDB921CAA2FBD00B9BA4A /* wangyiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FDB911CAA2FBD00B9BA4A /* wangyiVC.swift */; };
+		CD9FDB941CAA2FE300B9BA4A /* wangyiFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9FDB931CAA2FE300B9BA4A /* wangyiFlowLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		CD9FDB741CAA203F00B9BA4A /* cardCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD9FDB781CAA203F00B9BA4A /* cardCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardCollectionViewUITests.swift; sourceTree = "<group>"; };
 		CD9FDB7A1CAA203F00B9BA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9FDB881CAA20EE00B9BA4A /* horizontalFolowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = horizontalFolowLayout.swift; sourceTree = "<group>"; };
+		CD9FDB8A1CAA210F00B9BA4A /* VerticalFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalFlowLayout.swift; sourceTree = "<group>"; };
+		CD9FDB8C1CAA212B00B9BA4A /* horizontalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = horizontalVC.swift; sourceTree = "<group>"; };
+		CD9FDB8E1CAA214D00B9BA4A /* verticalVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = verticalVC.swift; sourceTree = "<group>"; };
+		CD9FDB911CAA2FBD00B9BA4A /* wangyiVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wangyiVC.swift; sourceTree = "<group>"; };
+		CD9FDB931CAA2FE300B9BA4A /* wangyiFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wangyiFlowLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,9 @@
 			children = (
 				CD9FDB581CAA203F00B9BA4A /* AppDelegate.swift */,
 				CD9FDB5A1CAA203F00B9BA4A /* ViewController.swift */,
+				CD9FDB901CAA2F5800B9BA4A /* 网易云效果 */,
+				CD9FDB871CAA20A400B9BA4A /* 垂直 */,
+				CD9FDB861CAA209B00B9BA4A /* 水平 */,
 				CD9FDB5C1CAA203F00B9BA4A /* Main.storyboard */,
 				CD9FDB5F1CAA203F00B9BA4A /* Assets.xcassets */,
 				CD9FDB611CAA203F00B9BA4A /* LaunchScreen.storyboard */,
@@ -123,6 +138,33 @@
 				CD9FDB7A1CAA203F00B9BA4A /* Info.plist */,
 			);
 			path = cardCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		CD9FDB861CAA209B00B9BA4A /* 水平 */ = {
+			isa = PBXGroup;
+			children = (
+				CD9FDB881CAA20EE00B9BA4A /* horizontalFolowLayout.swift */,
+				CD9FDB8C1CAA212B00B9BA4A /* horizontalVC.swift */,
+			);
+			name = "水平";
+			sourceTree = "<group>";
+		};
+		CD9FDB871CAA20A400B9BA4A /* 垂直 */ = {
+			isa = PBXGroup;
+			children = (
+				CD9FDB8A1CAA210F00B9BA4A /* VerticalFlowLayout.swift */,
+				CD9FDB8E1CAA214D00B9BA4A /* verticalVC.swift */,
+			);
+			name = "垂直";
+			sourceTree = "<group>";
+		};
+		CD9FDB901CAA2F5800B9BA4A /* 网易云效果 */ = {
+			isa = PBXGroup;
+			children = (
+				CD9FDB911CAA2FBD00B9BA4A /* wangyiVC.swift */,
+				CD9FDB931CAA2FE300B9BA4A /* wangyiFlowLayout.swift */,
+			);
+			name = "网易云效果";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +298,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD9FDB8F1CAA214D00B9BA4A /* verticalVC.swift in Sources */,
 				CD9FDB5B1CAA203F00B9BA4A /* ViewController.swift in Sources */,
+				CD9FDB8D1CAA212B00B9BA4A /* horizontalVC.swift in Sources */,
+				CD9FDB891CAA20EE00B9BA4A /* horizontalFolowLayout.swift in Sources */,
 				CD9FDB591CAA203F00B9BA4A /* AppDelegate.swift in Sources */,
+				CD9FDB8B1CAA210F00B9BA4A /* VerticalFlowLayout.swift in Sources */,
+				CD9FDB941CAA2FE300B9BA4A /* wangyiFlowLayout.swift in Sources */,
+				CD9FDB921CAA2FBD00B9BA4A /* wangyiVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
